@@ -22,7 +22,7 @@
     <url-pattern>/CartController</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
-    <welcome-file>CustomerHome</welcome-file>
+    <welcome-file>HomeController</welcome-file>
   </welcome-file-list>
   <servlet>
     <description></description>
