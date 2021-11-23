@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Shopping cart JPA - Hibernate</display-name>
+  <servlet>
+    <description></description>
+    <display-name>HomeController</display-name>
+    <servlet-name>HomeController</servlet-name>
+    <servlet-class>com.nhom1.controller.HomeController</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>CartController</display-name>
+    <servlet-name>CartController</servlet-name>
+    <servlet-class>com.nhom1.controller.CartController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeController</servlet-name>
+    <url-pattern>/HomeController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CartController</servlet-name>
+    <url-pattern>/CartController</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>CustomerHome</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>PersonController</display-name>
+    <servlet-name>PersonController</servlet-name>
+    <servlet-class>com.nhom1.controller.PersonController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PersonController</servlet-name>
+    <url-pattern>/PersonController</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <description></description>
+    <display-name>AddProductController</display-name>
+    <servlet-name>AddProductController</servlet-name>
+    <servlet-class>com.nhom1.controller.AddProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProductController</servlet-name>
+    <url-pattern>/AddProductController</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <description></description>
+    <display-name>EditProductController</display-name>
+    <servlet-name>EditProductController</servlet-name>
+    <servlet-class>com.nhom1.controller.EditProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EditProductController</servlet-name>
+    <url-pattern>/EditProductController</url-pattern>
+  </servlet-mapping>
+
+
+   <servlet>
+    <description></description>
+    <display-name>SaveController</display-name>
+    <servlet-name>SaveController</servlet-name>
+    <servlet-class>com.nhom1.controller.SaveController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SaveController</servlet-name>
+    <url-pattern>/SaveController</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+    <description></description>
+    <display-name>DeleteProductController</display-name>
+    <servlet-name>DeleteProductController</servlet-name>
+    <servlet-class>com.nhom1.controller.DeleteProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteProductController</servlet-name>
+    <url-pattern>/DeleteProductController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>CustomerHome</display-name>
+    <servlet-name>CustomerHome</servlet-name>
+    <servlet-class>com.nhom1.controller.CustomerHome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CustomerHome</servlet-name>
+    <url-pattern>/CustomerHome</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <description></description>
+    <display-name>ProductPageForward</display-name>
+    <servlet-name>ProductPageForward</servlet-name>
+    <servlet-class>com.nhom1.controller.ProductPageForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductPageForward</servlet-name>
+    <url-pattern>/ProductPageForward</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
